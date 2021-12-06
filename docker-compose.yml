@@ -1,0 +1,6 @@
+version: '2'
+services:
+  fusion:
+    build: ./
+    ports:
+      - "62354:62354"
